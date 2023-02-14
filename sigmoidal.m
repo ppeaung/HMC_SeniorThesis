@@ -1,4 +1,4 @@
-%% This code runs the Adaptive HK model  
+%% This code runs the Sigmoidal Opinion Dynamic Model via the 4th order RK 
 %% Inputs: 
 %
 % A: Adjacency matrix 
@@ -8,8 +8,6 @@
 % approaches infinity it approaches a stepwise function (classical HK
 % model) 
 % Z: the set of Zealots or nodes that are not persaudable
-% Implement using Runge-Kutta method
-% or maybe just use the damn ode solver in matlab 
 
 function Y = sigmoidal(A, X, delta, gamma, Z) 
 
