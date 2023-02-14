@@ -1,4 +1,4 @@
-%% This code runs the Adaptive HK model  
+%% This code runs the Sigmoidal Opinion Dynamic Model via 4th order RK 
 %% Inputs: 
 %
 % A: Adjacency matrix 
@@ -7,9 +7,6 @@
 % gamma: controls "sharpness" of dependence of nodes i and j, as gamma 
 % approaches infinity it approaches a stepwise function (classical HK
 % model) 
-% Implement Euler's method and then implement a fourth order
-% Runge-Kutta method... 
-% or maybe just use the damn ode solver in matlab 
 
 function Y = SigmoidalHK(A, X, delta, gamma) 
 
