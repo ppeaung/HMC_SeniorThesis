@@ -1,4 +1,3 @@
-%% This code runs the Adaptive HK model  
 %% Inputs: 
 %
 % A: Adjacency matrix 
